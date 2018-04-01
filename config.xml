@@ -76,14 +76,14 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
-  <plugin name="cordova-plugin-geofence" source="npm"/>
-  <plugin name="cordova-plugin-geofence-test" source="npm"/>
-  <plugin name="cordova-plugin-geolocation-tests" source="npm"/>
-  <plugin name="cordova-plugin-whitelist" source="npm"/>
-  <plugin name="cordova-plugin-test-framework" source="npm"/>
-  <plugin name="ionic-plugin-keyboard" source="npm"/>
-  <plugin name="cordova-plugin-geolocation" source="npm"/>
-  <plugin name="cordova-plugin-console" source="npm"/>
-  <plugin name="cordova-plugin-splashscreen" source="npm"/>
+  <plugin name="cordova-plugin-geofence" spec="https://github.com/cowbell/cordova-plugin-geofence.git"/>
+  <plugin name="cordova-plugin-geofence-test" spec="https://github.com/cowbell/cordova-plugin-geofence.git#:/tests"/>
+  <plugin name="cordova-plugin-geolocation-tests" spec="http://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation#:/tests"/>
+  <plugin name="cordova-plugin-whitelist" spec="^1.0.0"/>
+  <plugin name="cordova-plugin-test-framework" spec="^1.0.0"/>
+  <plugin name="ionic-plugin-keyboard" spec="^1.0.0"/>
+  <plugin name="cordova-plugin-geolocation" spec="~2.1.0"/>
+  <plugin name="cordova-plugin-console" spec="~1.0.2"/>
+  <plugin name="cordova-plugin-splashscreen" spec="~3.2.2"/>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
 </widget>
